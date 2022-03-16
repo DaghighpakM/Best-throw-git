@@ -172,3 +172,37 @@ System memory in use after: 35.7 MB.
 Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
 Total: 2.997600 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.660200 ms  DeleteObjects: 0.043300 ms)
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.6 MB.
+System memory in use after: 35.7 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 3.429400 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.984800 ms  DeleteObjects: 0.106900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.6 MB.
+System memory in use after: 35.7 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 2.819600 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.533900 ms  DeleteObjects: 0.061100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 35.6 MB.
+System memory in use after: 35.7 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 3.316900 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.052200 ms MarkObjects: 3.014600 ms  DeleteObjects: 0.062500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
