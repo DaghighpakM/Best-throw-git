@@ -1,0 +1,5 @@
+
+Database:	smoongam_bestThrow
+Host:	localhost
+Username:	smoongam_bestThrow
+Password:	2Ebj3TAm82S9jkYc

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Gard
+  - Target
+  - Station
+  - Shooter
+  - Guard
+  - Selected Guard
+  - Wall R
+  - Wall L
+  - Game Maneger
+  - Barrier
+  - Ball Pauseder
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - target
+  - ball
+  - score receive efects
+  - Ad
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: target
+    uniqueID: 2660257915
+    locked: 0
+  - name: ball
+    uniqueID: 1804968047
+    locked: 0
+  - name: score receive efects
+    uniqueID: 4186095117
+    locked: 0
+  - name: UI
+    uniqueID: 101654343
+    locked: 0
+  - name: UI Draw btn
+    uniqueID: 2065622951
+    locked: 0
+  - name: UI Menu Btns
+    uniqueID: 398730331
+    locked: 0
+  - name: Ad
+    uniqueID: 556958669
+    locked: 0
