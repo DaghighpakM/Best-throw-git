@@ -461,8 +461,8 @@ public class UIManeger : MonoBehaviour
     {
         AudioAndVibrationManeger.instance.play("Buttons click");
 
-        CafeIntent cafeIntent = new CafeIntent();
-        cafeIntent.Like(Application.identifier);
+        MyketIntetnt myketIntetnt = new MyketIntetnt();
+        myketIntetnt.Like(Application.identifier);
 
     }
     public void InstagramBtnClick()
@@ -567,11 +567,11 @@ public class UIManeger : MonoBehaviour
 
     public void OtherAppbtnClick()
     {
-         CafeIntent cafeIntent = new CafeIntent();
-         cafeIntent.OpenDeveloperWeb("497533404384");
+        AudioAndVibrationManeger.instance.play("Buttons click");
+        MyketIntetnt myketIntent = new MyketIntetnt();
+        myketIntent.OpenDeveloperWeb("Smoon game");
 
-    //   AudioAndVibrationManeger.instance.play("Buttons click");
-    //   Application.OpenURL("https://smoongame.com/");
+        Debug.Log("hjhjhjh");
     }
 
 

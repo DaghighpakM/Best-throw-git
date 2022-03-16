@@ -15,11 +15,11 @@ I:/working Aysel/Projects/Best throw/Best-throw/Best throw Main project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57098
+59077
 Successfully changed project path to: I:/working Aysel/Projects/Best throw/Best-throw/Best throw Main project
 I:/working Aysel/Projects/Best throw/Best-throw/Best throw Main project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 87.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,140 +35,220 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001888 seconds.
+Registered in 0.001734 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.880 seconds
+- Completed reload, in  1.698 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015666 seconds.
+Registered in 0.008041 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
+- Completed reload, in  1.749 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1186 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
-System memory in use after: 57.3 MB.
+System memory in use after: 57.2 MB.
 
 Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 3.503800 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.167900 ms MarkObjects: 2.902600 ms  DeleteObjects: 0.155200 ms)
+Total: 4.535600 ms (FindLiveObjects: 0.390000 ms CreateObjectMapping: 0.466500 ms MarkObjects: 3.560200 ms  DeleteObjects: 0.116300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset
-  artifactKey: Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset using Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8fa59be7f38de2e1d7cf8904721a8b') in 0.061889 seconds
-  Import took 0.092041 seconds .
+  path: Assets/Shapes/UI/other games btn2.png
+  artifactKey: Guid(007e36c08e310bc468e024556724e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shapes/UI/other games btn2.png using Guid(007e36c08e310bc468e024556724e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126ef89c971d3986254c2c5d92df1ae6') in 0.149036 seconds
+  Import took 0.152035 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 19.25 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.006773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 3.849300 ms (FindLiveObjects: 0.567200 ms CreateObjectMapping: 0.153200 ms MarkObjects: 3.021800 ms  DeleteObjects: 0.103300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 46.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 35.6 MB.
-System memory in use after: 35.7 MB.
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
 
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 4.189500 ms (FindLiveObjects: 0.357800 ms CreateObjectMapping: 0.133900 ms MarkObjects: 3.625700 ms  DeleteObjects: 0.069200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 365.325312 seconds.
-  path: Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset
-  artifactKey: Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset using Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbc3c26dc333710ff58ca4ffcd3e4b7') in 0.014136 seconds
-  Import took 0.319778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001033 seconds.
-  path: Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset
-  artifactKey: Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset using Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbc3c26dc333710ff58ca4ffcd3e4b7') in 0.009306 seconds
-  Import took 0.018754 seconds .
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 5.457500 ms (FindLiveObjects: 0.289200 ms CreateObjectMapping: 0.086000 ms MarkObjects: 5.001200 ms  DeleteObjects: 0.077200 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 18.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 35.6 MB.
-System memory in use after: 35.7 MB.
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
 
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 3.641800 ms (FindLiveObjects: 0.168600 ms CreateObjectMapping: 0.060500 ms MarkObjects: 3.367200 ms  DeleteObjects: 0.044000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 139.915127 seconds.
-  path: Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset
-  artifactKey: Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset using Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dc8c05ce429e449e46319503cdbd39') in 0.012733 seconds
-  Import took 0.047956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.910435 seconds.
-  path: Assets/Editor/Beebyte/Obfuscator/GlobalGameManagersPath.cs
-  artifactKey: Guid(3e3ecf6bcbce4c84e9acc4cb4d8a0481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/GlobalGameManagersPath.cs using Guid(3e3ecf6bcbce4c84e9acc4cb4d8a0481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8f74eef3bb34ee0457643a7d3be72f') in 0.028517 seconds
-  Import took 0.056171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.336715 seconds.
-  path: Assets/Editor/Beebyte/Obfuscator/Obfuscator.pdf
-  artifactKey: Guid(02d2e270ae961de4fb322613eb4815e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/Obfuscator.pdf using Guid(02d2e270ae961de4fb322613eb4815e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de77ac927d121617a07dfe8116b0b4a') in 0.020416 seconds
-  Import took 0.023488 seconds .
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 5.446400 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.101900 ms MarkObjects: 4.909900 ms  DeleteObjects: 0.091200 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 24.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 35.6 MB.
-System memory in use after: 35.7 MB.
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
 
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 3.362800 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.060400 ms MarkObjects: 3.035900 ms  DeleteObjects: 0.049200 ms)
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 6.390900 ms (FindLiveObjects: 0.385700 ms CreateObjectMapping: 0.136400 ms MarkObjects: 5.765300 ms  DeleteObjects: 0.099800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 444.256691 seconds.
-  path: Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset
-  artifactKey: Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Beebyte/Obfuscator/ObfuscatorOptions.asset using Guid(e3e222456d5673b459597ec373697031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd39badd7fc65781b1c76a1c95b85ca') in 0.014913 seconds
-  Import took 0.306129 seconds .
+  Time since last request: 2092.209385 seconds.
+  path: Assets/Scripts/MyketIntetnt.cs
+  artifactKey: Guid(c9169207f2a1a9440aef2ccef8ff90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MyketIntetnt.cs using Guid(c9169207f2a1a9440aef2ccef8ff90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda54f0fbe11999fc4e9d6b84bd574b3') in 0.052844 seconds
+  Import took 0.059208 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 18.35 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.017313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.435 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 3.694800 ms (FindLiveObjects: 0.501200 ms CreateObjectMapping: 0.179600 ms MarkObjects: 2.889100 ms  DeleteObjects: 0.086000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 71.125198 seconds.
+  path: Assets/Scripts/UIManeger.cs
+  artifactKey: Guid(7acd2f8207c709f4ba372c08047767a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManeger.cs using Guid(7acd2f8207c709f4ba372c08047767a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af17ecee17b736f807862d77919abc33') in 0.013999 seconds
+  Import took 0.016947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001169 seconds.
+  path: Assets/Scripts/UIManeger.cs
+  artifactKey: Guid(7acd2f8207c709f4ba372c08047767a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManeger.cs using Guid(7acd2f8207c709f4ba372c08047767a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af17ecee17b736f807862d77919abc33') in 0.003092 seconds
+  Import took 0.006243 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 3.386500 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.214400 ms MarkObjects: 2.842100 ms  DeleteObjects: 0.074600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 2.038300 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.081600 ms MarkObjects: 1.658700 ms  DeleteObjects: 0.043000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 33.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 35.6 MB.
-System memory in use after: 35.7 MB.
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
 
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 2.997600 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.660200 ms  DeleteObjects: 0.043300 ms)
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 2.815400 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.152800 ms MarkObjects: 2.135200 ms  DeleteObjects: 0.068400 ms)
 

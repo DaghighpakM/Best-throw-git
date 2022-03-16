@@ -1,14 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CafeIntent : MonoBehaviour {
-
-
-
-	//Modified by ALIyerEdon 
-	//WebSite:https://cafebazaar.ir/developer/gamelof/
-	//aliyeredonarbab@gmail.com
-	//Iran Game Studio
+public class MyketIntetnt : MonoBehaviour {
 
 
 	//Open app with cafe store 
@@ -23,8 +16,8 @@ public class CafeIntent : MonoBehaviour {
 		AndroidJavaClass uriClass = new AndroidJavaClass ("android.net.Uri");
 		
 		intentObject.Call<AndroidJavaObject> ("setAction", intentClass.GetStatic<string> ("ACTION_VIEW"));
-		intentObject.Call<AndroidJavaObject> ("setData", uriClass.CallStatic<AndroidJavaObject> ("parse", "bazaar://details?id="+PackageName));
-		intentObject.Call<AndroidJavaObject> ("setPackage", "com.farsitel.bazaar");
+		intentObject.Call<AndroidJavaObject> ("setData", uriClass.CallStatic<AndroidJavaObject> ("parse", "myket://comment?id=" + PackageName));
+	//	intentObject.Call<AndroidJavaObject> ("setPackage", "com.farsitel.bazaar");
 		
 		AndroidJavaClass unity = new AndroidJavaClass ("com.unity3d.player.UnityPlayer");
 		AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject> ("currentActivity");
@@ -45,9 +38,9 @@ public class CafeIntent : MonoBehaviour {
 		
 		AndroidJavaClass uriClass = new AndroidJavaClass ("android.net.Uri");
 		
-		intentObject.Call<AndroidJavaObject> ("setAction", intentClass.GetStatic<string> ("ACTION_EDIT"));
-		intentObject.Call<AndroidJavaObject> ("setData", uriClass.CallStatic<AndroidJavaObject> ("parse", "bazaar://details?id="+PackageName));
-		intentObject.Call<AndroidJavaObject> ("setPackage", "com.farsitel.bazaar");
+		intentObject.Call<AndroidJavaObject> ("setAction", intentClass.GetStatic<string> ("ACTION_VIEW"));
+		intentObject.Call<AndroidJavaObject> ("setData", uriClass.CallStatic<AndroidJavaObject> ("parse", "myket://comment?id=" + PackageName));
+		//intentObject.Call<AndroidJavaObject> ("setPackage", "com.farsitel.bazaar");
 		
 		AndroidJavaClass unity = new AndroidJavaClass ("com.unity3d.player.UnityPlayer");
 		AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject> ("currentActivity");
@@ -65,27 +58,15 @@ public class CafeIntent : MonoBehaviour {
 	//open developer products on cafe store
 	public void OpenDeveloperWeb(string DeveloperName)
 	{
-		try
-		{
-			AndroidJavaClass intentClass = new AndroidJavaClass("android.content.Intent");
-			AndroidJavaObject intentObject = new AndroidJavaObject("android.content.Intent");
+        try
+        {
 
-			AndroidJavaClass uriClass = new AndroidJavaClass("android.net.Uri");
+			Application.OpenURL("myket://developer/" + Application.identifier);
+        }
+        catch (System.Exception)
+        {
 
-			intentObject.Call<AndroidJavaObject>("setAction", intentClass.GetStatic<string>("ACTION_VIEW"));
-			intentObject.Call<AndroidJavaObject>("setData", uriClass.CallStatic<AndroidJavaObject>("parse", "bazaar://collection?slug=by_author&aid=" + DeveloperName));
-			intentObject.Call<AndroidJavaObject>("setPackage", "com.farsitel.bazaar");
-
-			AndroidJavaClass unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-			AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject>("currentActivity");
-			currentActivity.Call("startActivity", intentObject);
-
-		}
-		catch (System.Exception)
-		{
-
-
-		}
+        }
 
 	}
 }
